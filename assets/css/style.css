@@ -1,0 +1,135 @@
+/**
+* 1. General
+* 2. Marquee
+* 3. Product Slider
+*/
+
+/*
+* General
+*/
+.anafe-container-inner {
+    display: flex;
+    gap: 10px;
+    flex-wrap: initial;
+    justify-content: initial;
+    align-items: initial;
+}
+
+.anafe-container-inner > .anafe-flex-column {
+    width: 100%;
+}
+
+
+/**
+* Start Marquee
+*/
+.ANAFE_marquee_items {
+    display: inline-flex;
+    align-items: center;
+    white-spanafe: nowrap;
+}   
+
+.ANAFE_marquee_inner {
+    display: block;
+    text-align: center;
+}
+
+.ANAFE_marquee_item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.ANAFE-marquee {
+    overflow: hidden;
+}
+.ANAFE-marquee .ANAFE_marquee_item span.ANAFE_icon {
+    display: flex;
+    align-items: center;
+}
+
+
+/*
+* Product Slider
+*/
+
+:root {
+    --swiper-pagination-bullet-width : 10px;
+    --swiper-pagination-bullet-height : 10px;
+}
+
+.an-addon-for-elementor-product-slider .content-wrap {
+    display: flex;
+}
+
+.an-addon-for-elementor-product-slider.swiper {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.an-addon-for-elementor-product-slider[data-navigation="yes"] .an-addon-for-elementor-product-slider-wrapper {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.an-addon-for-elementor-product-slider.swiper[data-image-direction="top"] .an-addon-for-elementor-flex-column.content-wrap {
+.anafe-product-slider.swiper[data-image-direction="top"] .anafe-flex-column.content-wrap {
+    flex-direction: column;
+}
+.anafe-product-slider .swiper-button-prev, 
+.anafe-product-slider .swiper-button-next {
+    background: var(--e-global-color-accent);
+    padding: 0 0;
+    width: 55px;
+    height: 55px;
+}
+.anafe-product-slider .swiper-button-prev:after, 
+.anafe-product-slider .swiper-button-next:after {
+    font-size: 19px;
+    color: #fff;
+}
+.anafe-product-slider .swiper-pagination {
+    text-align: center;
+    padding: 6px 0;
+    border-radius: 4px;
+}
+.anafe-product-slider .swiper-pagination .swiper-pagination-bullet-active {
+    width: 30px;
+    border-radius: 5px;
+}
+.anafe-product-slider .swiper-wrapper {
+    align-items: center;
+}
+.anafe-product-slider .swiper-pagination span.swiper-pagination-bullet {
+    height: 6px;
+}
+.anafe-product-slider .swiper-pagination .swiper-pagination-bullet {
+    background: #fff;
+}
+.anafe-product-slider .swiper-pagination .swiper-pagination-bullet:not(.swiper-pagination-bullet-active) {
+    opacity: 0.8;
+}
+.anafe-product-slider .anafe-product-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.anafe-product-slider .anafe-product-img a {
+    width: 100%;
+}
+.anafe-product-slider .anafe-product-slider-wrapper a {
+    text-decoration: none;
+}
+
+.anafe-atc-button {
+    background-color: var(--e-global-color-accent);
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .anafe-product-slider .anafe-container-inner {
+        flex-wrap: wrap;
+    }
+    .anafe-product-slider[data-navigation="yes"] .anafe-product-slider-wrapper {
+        padding-left: 0;
+        padding-right: 0; 
+    }
+}
+

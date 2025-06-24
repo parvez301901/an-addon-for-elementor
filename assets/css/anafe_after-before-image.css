@@ -1,0 +1,110 @@
+/*
+* Before / ANAFEfter Image Camparison
+*/
+
+.an-addon-for-elementor-imanafe-comparison {
+    position: relative;
+/*    width: 80%;
+    max-width: 900px;*/
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.an-addon-for-elementor-imanafe-wrapper {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+/*.an-addon-for-elementor-imanafe-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}*/
+
+.an-addon-for-elementor-imanafe-after {
+    width: 100%;
+    z-index: 2;
+}
+
+/*.an-addon-for-elementor-imanafe-comparison .an-addon-for-elementor-imanafe-after {
+    width: 50%;
+    left: auto;
+    right: 0;
+}*/
+
+
+.an-addon-for-elementor-imanafe-before, .an-addon-for-elementor-imanafe-after {
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.an-addon-for-elementor-imanafe-inner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.an-addon-for-elementor-bf-slider-line {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background: white;
+    z-index: 3;
+    pointer-events: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.an-addon-for-elementor-bf-slider-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 50%;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: ew-resize;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.an-addon-for-elementor-bf-slider-button svg {
+    width: 20px;
+    height: 20px;
+}
+
+.an-addon-for-elementor-bf-slider-button svg:first-child {
+    margin-right: 2px;
+}
+
+.an-addon-for-elementor-bf-slider-button svg:last-child {
+    margin-left: 2px;
+}
+
+.an-addon-for-elementor-bf-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 5;
+    cursor: ew-resize;
+}    
