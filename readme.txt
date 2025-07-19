@@ -1,6 +1,6 @@
 === AN Addon for Elementor ===
 Contributors: parvez301
-Tags: elementor, elementor, elementor widget, woocommerce elementor Widget, AN AddonCraft, Elementor Custom AN Addons
+Tags: elementor, elementor, elementor widget, woocommerce elementor Widget, AN Addon, Elementor Custom AN Addons
 Requires at least: 5.0
 Tested up to: 6.8
 Requires PHP: 7.0
@@ -14,7 +14,7 @@ AN Addon for Elementor plugin you install after Elementor! Packed with a lots st
 
 AN Addon for Elementor – Supercharge Your Website with Powerful Custom Widgets!
 
-Enhance your [Elementor](https://wordpress.org/plugins/elementor/) experience with AN AddonCraft, a must-have plugin that provides a collection of highly customizable widgets to take your website design to the next level. Whether you're a developer, designer, or business owner, AN AddonCraft helps you create stunning, dynamic layouts without touching a single line of code.
+Enhance your [Elementor](https://wordpress.org/plugins/elementor/) experience with AN Addon, a must-have plugin that provides a collection of highly customizable widgets to take your website design to the next level. Whether you're a developer, designer, or business owner, AN Addon helps you create stunning, dynamic layouts without touching a single line of code.
 
 ### Light Weight & Instant Loading
 Your Website will load instantly and edit in real-time - no technical debt, no speed compromises, just smooth performance.
@@ -35,14 +35,14 @@ We have an extraordinary support team ready to help you. Ask your questions in t
 3. Before After Image Comparison
 4. ...
 
- Why Choose AN AddonCraft?
+ Why Choose AN Addon?
 Save Time & Effort – No need for custom coding or multiple plugins.
 Boost Creativity – Stand out with advanced design elements.
 User-Friendly – Perfect for beginners and professionals alike.
 
- Unlock the Full Potential of Elementor – Get AN AddonCraft Today!
+ Unlock the Full Potential of Elementor – Get AN Addon Today!
 
-### Happy User of AN AddonCraft?
+### Happy User of AN Addon?
 Or rate us on [WordPress] (https://wordpress.org/support/plugin/an-addon-for-elementor/reviews/?rate=5#new-post) 
 
 == Installation ==
@@ -52,7 +52,7 @@ Note : This plugin works with Elementor. Make sure you have [Elementor](https://
 1. install the plugin through the WordPress plugins screen directly.
 2. Activate the plugin through the 'Plugins' screen in WordPress.
 3. All available elements are accessible within the Elementor editor interface.
-4. All these elements are organized under the 'AN AddonCraft' category in your Elementor widget panel for easy access.
+4. All these elements are organized under the 'AN Addon' category in your Elementor widget panel for easy access.
 
 == Frequently Asked Questions ==
 
